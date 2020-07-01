@@ -12,7 +12,7 @@ end
 
 def greet_crew (crew)
   crew.map {|crew_member| "Hello #{crew_member}."}
-end
+end 
 
 def engage
   date = generate_star_date
